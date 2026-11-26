@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Checkout - MITSUKI'S MATCHA CAFE</title><link rel="stylesheet" href="style.css"></head><body>
+<header>
+    <div class="logo"><img src="logo.jpeg"><span>MITSUKI'S MATCHA CAFE</span></div><nav><a href="quizobusinessweb.html">Home</a><a href="cart.html">Cart</a>
+        <a class="active" href="checkout.html">Checkout</a>
+    <button class="login-btn" onclick="document.getElementById('loginBox').style.display='flex'">Login</button></nav></header>
+<main class="page"><h1>Checkout</h1><div class="checkout-grid">
+    <form class="form-box" action="thankyou.html"><h2>Customer Information</h2><input required placeholder="Full Name">
+    <input required type="email" placeholder="Email Address">
+    <input required placeholder="Phone Number">
+    <input required placeholder="Delivery Address">
+    <select required><option value="">Choose Payment Method</option><option>Cash on Delivery</option><option>GCash</option><option>Bank Transfer</option></select>
+    <button class="btn" type="submit">Place Order</button></form><div class="summary">
+        <h2>Order Summary</h2><p>Classic Matcha <b>₱120</b></p>
+        <p> Creamy Matcha <b>₱145</b></p>
+        <p>Mango Matcha <b>₱150</b></p>
+        <p>Matcha Latte <b>₱135</b></p>
+        <hr><h2>Total ₱550</h2></div></div></main><footer><p>© 2026 MITSUKI'S MATCHA CAFE</p></footer>
+<div id="loginBox" class="overlay">
+    <div class="login-modal">
+        <button class="close" onclick="document.getElementById('loginBox').style.display='none'">
+            ×</button><h2>Login</h2><input placeholder="Username"><input type="password" placeholder="Password"><a href="index.html" class="btn full">Login</a></div></div></body></html>
